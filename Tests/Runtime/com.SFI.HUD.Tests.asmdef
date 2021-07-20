@@ -1,0 +1,16 @@
+{
+    "name": "com.SFI.HUD.Tests",
+    "references": [
+        "com.SFI.HUD"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

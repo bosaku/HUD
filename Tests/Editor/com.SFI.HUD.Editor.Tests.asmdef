@@ -1,0 +1,19 @@
+{
+    "name": "com.SFI.HUD.Editor.Tests",
+    "references": [
+        "com.SFI.HUD",
+        "com.SFI.HUD.Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
