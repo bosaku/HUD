@@ -7,7 +7,7 @@ setup_git() {
 
 update_nightly_branch() {
     printf "Run nightly update \n"
-    git remote add origin-nightly "https://${GH_TOKEN}@https://github.com/bosaku/HUD.git"
+    git remote add origin-nightly "https://${GH_TOKEN}@github.com/bosaku/HUD.git"
     git subtree split --prefix Assets/com.SFI.HUD -b nightly
     git push -f origin-nightly nightly:nightly
 }
