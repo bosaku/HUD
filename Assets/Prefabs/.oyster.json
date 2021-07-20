@@ -1,0 +1,20 @@
+{
+  "description": "it's a basic hud",
+  "displayName": "Hud",
+  "keywords": [
+    "hud"
+  ],
+  "oysterVersion": "2.1.0",
+  "packageName": "Hud",
+  "packageScope": "Hud",
+  "unityVersion": "2018",
+  "author": {
+    "name": "R Bryan Irwin",
+    "email": "rbi.noli@gmail.com",
+    "url": "www.streamfall.com"
+  },
+  "repo": {
+    "gitUrl": "https://github.com/bosaku/Hud",
+    "gitUrlNoHttp": "https://github.com/bosaku/Hud"
+  }
+}

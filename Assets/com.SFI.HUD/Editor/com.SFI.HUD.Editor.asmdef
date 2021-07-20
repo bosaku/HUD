@@ -1,0 +1,12 @@
+{
+    "name": "com.SFI.HUD.Editor",
+    "references": [
+        "com.SFI.HUD"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

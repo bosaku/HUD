@@ -1,0 +1,57 @@
+{
+  "name": "com.SFI.HUD",
+  "version": "0.0.0",
+  "unity": "5",
+  "displayName": "Unity3d Particle Hud",
+  "description": "Simple 1 Draw call HUD for displaying symbols over things afield",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "semantic-release": "semantic-release",
+    "commit": "git-cz"
+  },
+  "keywords": [
+    "particles",
+    "hud"
+  ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bosaku/HUD.git"
+  },
+  "author": {
+    "name": "R Bryan Irwin",
+    "email": "rbi.noli@gmail.com",
+    "url": "www.streamfall.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bosaku/HUD/issues"
+  },
+  "homepage": "https://github.com/bosaku/HUD#readme",
+  "devDependencies": {
+    "@commitlint/cli": "~12.0.1",
+    "@commitlint/config-conventional": "~12.0.1",
+    "@semantic-release/changelog": "~5.0.1",
+    "@semantic-release/commit-analyzer": "~8.0.1",
+    "@semantic-release/exec": "~5.0.0",
+    "@semantic-release/git": "~9.0.0",
+    "@semantic-release/github": "~7.2.0",
+    "@semantic-release/npm": "~7.0.10",
+    "@semantic-release/release-notes-generator": "~9.0.2",
+    "commitizen": "~4.2.3",
+    "cz-conventional-changelog": "~3.3.0",
+    "husky": "~5.1.3",
+    "semantic-release": "~17.4.2",
+    "upm-package-populator": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

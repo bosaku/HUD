@@ -1,0 +1,25 @@
+{
+  "name": "com.SFI.HUD",
+  "version": "0.0.0",
+  "displayName": "Unity3d Particle Hud",
+  "description": "Simple 1 Draw call HUD for displaying symbols over things afield",
+  "unity": "5",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bosaku/HUD.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bosaku/HUD/issues"
+  },
+  "homepage": "https://github.com/bosaku/HUD#readme",
+  "keywords": [
+    "particles",
+    "hud"
+  ],
+  "author": {
+    "name": "R Bryan Irwin",
+    "email": "rbi.noli@gmail.com",
+    "url": "www.streamfall.com"
+  }
+}
